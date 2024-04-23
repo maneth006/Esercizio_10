@@ -12,4 +12,5 @@ export const routes: Routes = [
     {path: 'Mostre/:id', component: DescrizioneComponent} ,
     
     {path: 'Home', component:HomeComponent},
+    
 ];

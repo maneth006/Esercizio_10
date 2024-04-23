@@ -7,9 +7,9 @@ export const routes: Routes = [
 
     {path: '', redirectTo: '/Home', pathMatch: 'full'},
     
-    {path: 'descrizione', component: DescrizioneComponent}, 
+    {path: 'Mostre', component: MostreComponent}, 
     
-    {path: 'mostre/:id', component: MostreComponent} ,
+    {path: 'Mostre/:id', component: DescrizioneComponent} ,
     
     {path: 'Home', component:HomeComponent},
 ];
